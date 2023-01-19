@@ -16,12 +16,15 @@ export default function Home() {
 
           <div className="w-full mt-10 bg-transparent">
             <Link
-              className="px-10 py-6 bg-blue-500 rounded text-white text-lg mr-5 font-semibold"
+              className="px-10 py-6 bg-primary rounded text-white text-lg mr-5 font-semibold"
               href={"/services"}
             >
               Buy Services
             </Link>
-            <Link className="px-10 py-6 text-lg rounded" href={"/contact"}>
+            <Link
+              className="px-10 py-6 text-lg rounded font-semibold"
+              href={"/contact"}
+            >
               Contact Us
             </Link>
           </div>
