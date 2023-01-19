@@ -1,0 +1,9 @@
+/* Rectangle 5 */
+
+position: absolute;
+left: 8.02%;
+right: 78.07%;
+top: 55.93%;
+bottom: 37.31%;
+
+background: #FF0000;
