@@ -9,8 +9,9 @@ import {
 import logo from "../../public/assets/logo.png";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-gradient-to-r from-[#bce1ff] via-gray-100 to-[#bce1ff] border-t border-gray-400">
+    <footer className="bg-gradient-to-r from-[#bce1ff] via-gray-100 to-[#bce1ff] border-t border-grayish-blue">
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -160,7 +161,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
+        <p className="mt-8 text-xs text-gray-800">
+          © {currentYear} SRN Innovations
+        </p>
       </div>
     </footer>
   );

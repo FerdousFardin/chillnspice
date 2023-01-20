@@ -1,8 +1,9 @@
+import { CardInfo } from "@/data/HomeCardInfo";
 import { BsFillPieChartFill } from "react-icons/bs";
 import ServicesCard from "./ServicesCard";
 function ServicesHome() {
   return (
-    <div className="container">
+    <div className="container w-full mx-auto">
       <div className="flex flex-wrap">
         <div className="w-full px-4">
           <div className="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
@@ -19,9 +20,9 @@ function ServicesHome() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4 ">
-        {[...Array(6)].map((e, idx) => (
-          <ServicesCard key={idx} id={idx} />
+      <div className="flex flex-wrap lg:mx-4 justify-center">
+        {CardInfo.map((info, idx) => (
+          <ServicesCard key={idx} {...{ info }} />
         ))}
       </div>
     </div>

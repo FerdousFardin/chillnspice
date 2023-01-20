@@ -33,7 +33,7 @@ function index() {
           </div>
         </div>
 
-        <div className="w-full mt-8 bg-transparent border border-grayish rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-400 focus-within:ring-opacity-40">
+        <div className="w-full mt-8 bg-transparent border border-grayish-blue rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-400 focus-within:ring-opacity-40">
           <form onSubmit={handleSubmit} className="flex flex-col lg:flex-row">
             <input
               type="email"
